@@ -1,1 +1,19 @@
+Automatic White Balance Experiment:
+To replicate this experiment, run the following Python script: 
+python test_isp.py mode
+where mode can be 1, 2, or 3. Here, '1' represents camera preset white balancing, '2' represents white world white balancing, and '3' represents gray world white balancing.
+
+Manual White Balance Experiments
+To replicate these experiments, execute the following Python script:
+python manual_wb.py
+This script will perform white balancing using the three pathes described in section 1.2 of the report.
+
+Checking the Bayer Pattern: 
+To check the Bayer pattern, run:
+python check_bayer_pattern.py
+
+Compression Experiments: 
+To conduct the compression experiments, run:
+python test_compression.py
+This script will compress the .png file at different ratios and compare them in a single figure.
 
